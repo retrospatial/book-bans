@@ -89,7 +89,7 @@
     .book-image-container {
         position: relative;
         width: auto;
-        height: 15vh;
+        height: 150px;
         overflow: hidden;
     }
 
@@ -98,6 +98,12 @@
         height: 100%;
         object-fit: contain;
         filter: brightness(1); /* Mute colors and add grayscale */
+    }
+
+    @media (max-width: 800px) { 
+        #scrolly {
+			padding: 0 2rem;
+		}
     }
 
     /* Noise overlay */

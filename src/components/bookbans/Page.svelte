@@ -178,5 +178,11 @@ vercel --prod
 		margin: 64px auto;      
 		text-align: left;
 	}
+
+	@media (max-width: 800px) { 
+        #page {
+			padding: 0 2rem;
+		}
+    }
 </style>
 

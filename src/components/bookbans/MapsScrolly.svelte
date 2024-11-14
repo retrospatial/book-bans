@@ -88,10 +88,30 @@ $: console.log("Parent scrollIndex:", scrollIndex);
 	:global(.step) {
 		color: black;
 		font-family: var(--sans);
-		font-weight: 700;
 		padding: 0.25rem;
 	}
 	.spacer {
 		height: 75vh;
 	}
+
+	@media (max-width: 1200px) {
+		#scrolly {
+			display: block; 
+		}
+		.scrolly-container {
+			display: block; 
+			gap: 0; 
+		}
+	}
+
+	@media (max-width: 800px) {
+		.step {
+			max-width: 20rem;
+		}
+		.step-inner {
+			font-size: 12px; /* Set font size to 12px for smaller screens */
+		}
+	}
+
+
 </style>

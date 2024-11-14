@@ -4,9 +4,9 @@
 </script>
 
 <!-- <img src="/assets/svgs/librarycard.svg" class="image" alt="Library Card" /> -->
-<!-- <div class="image">
+<section class="image">
   {@html LibraryCard}
-</div> -->
+</section>
 <ChartDetails source="Source: PEN America, Facebook" />
 
 

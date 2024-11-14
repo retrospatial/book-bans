@@ -84,8 +84,8 @@
 		padding: 0.25rem;
 	}
 
-	@media (max-width: 600px) {
-		/* Add responsive styles here if needed */
-	}
+	@media (max-width: 800px) { 
+        
+    }
 	
 </style>

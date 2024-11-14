@@ -43,5 +43,11 @@
 		text-align: left;   
 	}
 
+	@media (max-width: 800px) { 
+        #section1 {
+			padding: 0 2rem;
+		}
+    }
+
 
 </style>
