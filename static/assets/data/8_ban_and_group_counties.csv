@@ -1,0 +1,128 @@
+state_abb,county_names,county_fips
+AK,Anchorage Borough,2020
+AR,Washington County,5143
+CA,Los Angeles County,6037
+CA,San Diego County,6073
+CO,El Paso County,8041
+CO,Weld County,8123
+FL,Brevard County,12009
+FL,Broward County,12011
+FL,Charlotte County,12015
+FL,Clay County,12019
+FL,Collier County,12021
+FL,Duval County,12031
+FL,Flagler County,12035
+FL,Hernando County,12053
+FL,Highlands County,12055
+FL,Hillsborough County,12057
+FL,Indian River County,12061
+FL,Leon County,12073
+FL,Marion County,12083
+FL,Martin County,12085
+FL,Monroe County,12087
+FL,Okaloosa County,12091
+FL,Orange County,12095
+FL,Osceola County,12097
+FL,Palm Beach County,12099
+FL,Pasco County,12101
+FL,Pinellas County,12103
+FL,Polk County,12105
+FL,Santa Rosa County,12113
+FL,Sarasota County,12115
+FL,Volusia County,12127
+GA,Cobb County,13067
+GA,Fulton County,13121
+GA,Gwinnett County,13135
+IA,Carroll County,19027
+IA,Dallas County,19049
+IA,Hardin County,19083
+IA,Linn County,19113
+IA,Polk County,19153
+IA,Scott County,19163
+IA,Warren County,19181
+IN,Hamilton County,18057
+IN,Howard County,18067
+IN,La Porte County,18091
+KS,Johnson County,20091
+MD,Carroll County,24013
+MD,Frederick County,24021
+MD,Montgomery County,24031
+MI,Allegan County,26005
+MI,Kent County,26081
+MI,Wayne County,26163
+MO,Greene County,29077
+MO,Jackson County,29095
+MO,St. Charles County,29183
+MO,St. Louis County,29189
+MS,Madison County,28089
+NC,Buncombe County,37021
+NC,Iredell County,37097
+NC,Mecklenburg County,37119
+NC,New Hanover County,37129
+NC,Pender County,37141
+ND,Williams County,38105
+NH,Hillsborough County,33011
+NJ,Burlington County,34005
+NJ,Cape May County,34009
+NJ,Monmouth County,34025
+NJ,Morris County,34027
+NJ,Sussex County,34037
+NJ,Union County,34039
+NY,Dutchess County,36027
+NY,Orange County,36071
+NY,Putnam County,36079
+NY,Suffolk County,36103
+NY,Wayne County,36117
+NY,Westchester County,36119
+OH,Summit County,39153
+OK,Oklahoma County,40109
+OK,Tulsa County,40143
+PA,Beaver County,42007
+PA,Chester County,42029
+PA,Erie County,42049
+PA,Lancaster County,42071
+PA,Monroe County,42089
+PA,Montgomery County,42091
+PA,Pike County,42103
+PA,Westmoreland County,42129
+PA,York County,42133
+SC,Anderson County,45007
+SC,Beaufort County,45013
+SC,Greenville County,45045
+SC,Horry County,45051
+SC,Lexington County,45063
+SC,Pickens County,45077
+SC,Richland County,45079
+SC,Spartanburg County,45083
+SC,York County,45091
+SD,Meade County,46093
+TN,Blount County,47009
+TN,Hamilton County,47065
+TN,Shelby County,47157
+TN,Sumner County,47165
+TN,Williamson County,47187
+TN,Wilson County,47189
+TX,Collin County,48085
+TX,Denton County,48121
+TX,Fort Bend County,48157
+TX,Galveston County,48167
+TX,Gillespie County,48171
+TX,Harris County,48201
+TX,Kendall County,48259
+TX,Montgomery County,48339
+TX,Tarrant County,48439
+TX,Travis County,48453
+TX,Williamson County,48491
+UT,Salt Lake County,49035
+VA,Fairfax County,51059
+VA,Loudoun County,51107
+VA,Virginia Beach city,51810
+WA,King County,53033
+WI,Jefferson County,55055
+WI,Kenosha County,55059
+WI,Manitowoc County,55071
+WI,Racine County,55101
+WI,St. Croix County,55109
+WI,Winnebago County,55139
+WY,Laramie County,56021
+WY,Natrona County,56025
