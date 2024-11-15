@@ -4,22 +4,24 @@
 </script>
 
 <div id="section1">
-	<Title />
+	<div class="title">
+		<Title /> 
+	</div>
 
 	<p class="copy">
-		This past July, the Donnelly Public Library in Idaho was forced to do the unthinkable: ban minors from entering without an accompanying guardian or written parental consent, effectively turning adults-only. This drastic measure came in response to a new state law requiring libraries to sequester all books deemed inappropriate for minors within 60 days of receiving a complaint—an impossible task given the library's limited space. 
+		This past July, the Donnelly Public Library in Idaho was forced to do the unthinkable: <a href="https://donnelly.lili.org/new-rules-at-the-library/">ban minors from entering</a> without an accompanying guardian or written parental consent. The library effectively turned adults-only. This drastic measure came in response to a new state law requiring libraries to sequester all books deemed inappropriate for minors within 60 days of receiving a complaint—an impossible task given the library's limited space. 
 	</p>
 
 	<p class="copy">
-		A month later, all public schools in Utah were ordered to remove 13 books from their library shelves under a state law requiring the blanket removal of any books containing “pornographic or indecent” material. The no-read list includes titles such as Forever by Judy Blume, Milk and Honey by Rupi Kaur, and A Court of Thorns and Roses by Sarah J. Maas. 
+		A month later, all public schools in Utah were ordered to remove 13 books from their library shelves due to a state law requiring the blanket removal of any books containing “<a href="https://abcnews.go.com/US/utah-bans-13-books-public-schools-statewide-including/story?id=112680897">pornographic or indecent</a>” material. The no-read list includes titles such as <i>Forever</i>Forever by Judy Blume, <i>Milk and Honey by Rupi Kaur</i>, and <i>A Court of Thorns and Roses</i> by Sarah J. Maas. 
 	</p>
 
 	<p class="copy">
-		And in September, the Charlotte-Mecklenburg school district in North Carolina barred educators from planning programming around Banned Books Week, a literacy campaign run annually by the American Library Association since 1982, before reversing the decision after much backlash. 
+		And in September, the Charlotte-Mecklenburg school district in North Carolina <a href="https://www.theguardian.com/us-news/2023/sep/30/north-carolina-bans-banned-books-week-but-retracts-after-media-backlash">barred educators</a> from planning programming around Banned Books Week, a literacy campaign run annually by the American Library Association since 1982. Only after a huge backlash did the district reverse its decision. 
 	</p>
 
 	<p class="copy">
-		That’s just this past summer. According to literacy advocacy group PEN America, which tracks and records book bans across the nation, efforts to remove literature from schools and libraries have taken a severe turn in recent years, coming to a head with over 10,000 reported bans during the 2023-2024 school year, a sharp increase from 3,362 reports in the previous year.
+		That’s just this past summer. According to literacy advocacy group PEN America, which tracks book bans across the nation, efforts to remove literature from schools and libraries have taken a severe turn in recent years. There were over 10,000 reported bans during the 2023-2024 school year, a sharp increase from 3,362 reports in the previous year.
  	</p>
 	
 	<div class="scrolly">

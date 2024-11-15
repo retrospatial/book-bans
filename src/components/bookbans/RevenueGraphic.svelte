@@ -61,7 +61,10 @@
         margin-top: 1rem;
     }
 
-    @media (max-width: 600px) { 
-        /* Add responsive styles here if needed */
+    @media (max-width: 800px) { 
+        .chart-title {
+            font-size: 18px;
+            width: 20rem;
+        }
     }
 </style>

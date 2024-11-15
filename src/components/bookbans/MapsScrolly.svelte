@@ -3,9 +3,9 @@
 	import Maps from "$components/bookbans/Maps.svelte";
   
 	const copy = [
-	  { value: "Between 2021 and 2024, PEN America tracked 15,940 counts of book banning incidents across 395 counties in the United States, with Florida, Iowa, and Texas accounting for nearly 80% of these bans." },
-	  { value: "During the same time period, 302 counties became home to a local Moms for Liberty chapter. These are primarily concentrated in Florida, North Carolina, and Pennsylvania, but are spread out all across the map." },
-	  { value: "These maps don’t perfectly overlap: only 127 counties have both a Moms for Liberty chapter and a book ban incident.<br><br>This is because the group isn’t solely drawn to red counties, where they have a better chance at advancing politically conservative policies. In fact, much of their campaign focuses on “flipping” school boards by appealing to those who feel “alone and unheard in their concerns” in blue and purple counties, where opposition is likely to be greater." },
+	  { value: "Between 2021 and 2024, PEN America tracked <b>15,940 counts</b> of book banning incidents across <b>395 counties</b> in the United States. Florida, Iowa, and Texas accounted for nearly 80% of these bans." },
+	  { value: "During the same period, <b>302 counties</b> became home to a local Moms for Liberty chapter. These are primarily concentrated in Florida, North Carolina, and Pennsylvania, but are spread out all across the map." },
+	  { value: "These maps don’t perfectly overlap: only 127 counties have both a Moms for Liberty chapter and a book ban incident.<br><br>This is because the group isn’t solely drawn to red counties, where they have a better chance at advancing politically conservative policies. In fact, much of their campaign focuses on “flipping” school boards by appealing to those who feel <a href=https://www.momsforliberty.org/chapters/''>alone and unheard in their concerns</a>” in <a href='https://www.brookings.edu/articles/moms-for-liberty-where-are-they-and-are-they-winning/'>blue and purple</a>> counties, where opposition is likely to be greater." },
 	];
   
 	let scrollIndex;

@@ -5,7 +5,7 @@
 
 <!-- <img src="/assets/svgs/librarycard.svg" class="image" alt="Library Card" /> -->
 <section class="image">
-  {@html LibraryCard}
+  {@html LibraryCard.replaceAll("figma2html-box", "figma2html-box-card")}
 </section>
 <ChartDetails source="Source: PEN America, Facebook" />
 

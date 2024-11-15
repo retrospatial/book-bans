@@ -70,6 +70,7 @@
 
 h1 {
 	font-size: var(--48px, 48px);
+	font-family: 'American Typewriter', sans-serif;
 	
 }
 
@@ -97,4 +98,5 @@ h6 {
 p {
 	font-size: var(--18px, 18px);
 	font-family:'Work Sans', serif;
+	color: black;
 }

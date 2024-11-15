@@ -1,4 +1,5 @@
 <section id="intro">
+
 	<div id="title">
 
 		<h1 id="headline">Who's Behind the<br>
@@ -10,7 +11,7 @@
 			<img id="book2" src="assets/svgs/book2.svg" alt="book2"/>
     	</div>
 
-	</div>
+	</div> 
 
 	<div id="subtitle">
 		<p class="subtitle-text">Book bans are a national issue. See what’s happening in your county.</p>
@@ -29,7 +30,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 40rem;
+        max-width: 45rem;
         min-height: 100vh;
         margin: 0 auto;
         text-align: center;
@@ -43,7 +44,7 @@
 	#books {
 		position: relative;
 		height: auto; 
-		max-height: 100px; 
+		max-height: 100px;
 		margin-bottom: 80px;
 	}
 
@@ -51,13 +52,15 @@
         position: relative;
         z-index: 1;
 		top: -120px;
-        left: 40px;  
+        left: 40px; 
+		width: 450px; 
     }
 
     #book2 {
         position: relative;
         z-index: 0;
 		top: -140px;
+		width: 550px; 
     }
 
     #headline {
@@ -70,7 +73,7 @@
     #book-text {
         position: relative;
         z-index: 3;
-		top: 20px;
+		top: 25px;
 		text-transform: uppercase;
 		font-size: 1.5em;
 		left: -20px;
@@ -80,7 +83,7 @@
         position: relative;
         z-index: 3;
 		left: 80px;
-		top: 30px;
+		top: 35px;
 		text-transform: uppercase;
 		font-size: 1.5em;
     } 
@@ -117,10 +120,14 @@
 		font-family: 'Roboto Mono', monospace;
     }
 
-	/* @media (max-width: 600px) { 
-        .chart-container {
-            padding: 1rem;
-            height: 300px;
-        }
-    } */
+	@media (max-width: 600px) { 
+		#books {
+			margin-bottom: 40px;
+		}
+
+		#headline {
+			font-size: 8vw;
+		}
+}
+
 </style>

@@ -4,15 +4,16 @@
   </script>
   
   <div class="image">
-    {@html Titles}
+    {@html Titles.replaceAll("figma2html-box", "figma2html-box-titles")}
   </div>
-  <ChartDetails source="Source: PEN America, Facebook" />
+  <ChartDetails source="Source: American Library Association's Office for Intellectual Freedom" />
   
   
   <style>
     .image {
       display: block;
       margin: 2rem auto;
+      width: 100%;
     }
   </style>
   

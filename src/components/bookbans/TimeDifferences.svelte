@@ -5,7 +5,7 @@
   
   <!-- <img src="/assets/svgs/librarycard.svg" class="image" alt="Library Card" /> -->
   <div class="image">
-    {@html TimeDiff}
+    {@html TimeDiff.replaceAll("figma2html-box", "figma2html-box-time")}
   </div>
   <ChartDetails source="Source: PEN America, Facebook" />
   

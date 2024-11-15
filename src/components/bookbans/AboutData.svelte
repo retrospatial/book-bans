@@ -3,13 +3,13 @@
 <div class="about">
     <h2>About the Data</h2>
 
-    <ul class="list">
-        <li>Facebook dataset: Scraped in August 2024</li>
-        <li>PEN dataset: July 2021-June 2023 (two academic years)</li>
-        <li>Important to note is that PEN only started tracking book bans in July 2021</li>
-        <li>We are using FB groups as a proxy for Moms for Liberty presence at a county level</li>
-        <li>Credit ALA’s Office for Intellectual Freedom and PEN America</li>
-    </ul>
+    <p class="copy">
+        Data on Moms for Liberty’s <a href="https://www.facebook.com/Moms4Liberty/groups">Facebook groups</a> was collected in August 2024. Data on book bans was sourced from PEN America’s Index of School Book Bans, which spans three academic years: <a href="https://pen.org/book-bans/banned-book-list-2021-2022/">2021 to 2022</a>, <a href="https://pen.org/book-bans/2023-banned-book-list/">2022 to 2023</a>, and <a href="https://pen.org/book-bans/pen-america-index-of-school-book-bans-2023-2024/">2023 to 2024</a>. They did not track book bans prior to July 2021. 
+    </p>
+
+    <p class="copy">The book covers shown are from banned books lists compiled by the <a href="https://www.ala.org/bbooks/frequentlychallengedbooks/top10/archive">American Library Association</a> and <a href="https://www.cbsnews.com/pictures/the-50-most-banned-books-in-america/">CBS News</a>. The folding map effect was created by <a href="https://codepen.io/staridas-geography/pen/gOLYqYO">Staridas Geography</a>.</p>
+
+    <p class="copy">Thank you to Sabrina Baêta and PEN America for their data and guidance.</p>
 </div>
 
 <div class="dashed-line"></div>
@@ -64,5 +64,11 @@
         text-transform: uppercase;
         line-height: 1.5;
     }
+
+    .copy {
+		max-width: 45rem;  
+		margin: 32px auto;    
+		text-align: left;   
+	}
 
 </style>

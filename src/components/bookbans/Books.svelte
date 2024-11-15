@@ -59,7 +59,7 @@
         width: 100%;
         position: relative;
         align-items: center;
-        max-height: 100vh;
+        height: 100vh;
         margin: 32px auto;
         padding-top: 32px;
     }
@@ -73,6 +73,7 @@
         grid-template-columns: repeat(10, 1fr);
         gap: 1rem;
         width: 100%;
+        max-width: 100%;
         padding-bottom: 1rem;
         justify-items: center;
         align-items: center;
@@ -89,7 +90,7 @@
     .book-image-container {
         position: relative;
         width: auto;
-        height: 150px;
+        height: 15vh;
         overflow: hidden;
     }
 
@@ -104,6 +105,18 @@
         #scrolly {
 			padding: 0 2rem;
 		}
+
+        .row-container {
+            grid-template-columns: repeat(5, 1fr);
+            padding: 0.1rem;
+            gap: 0.1rem;
+        }
+
+        .book-image-container {
+            height: 8vh;
+        }
+        
+        
     }
 
     /* Noise overlay */
