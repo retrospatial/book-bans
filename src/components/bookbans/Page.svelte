@@ -1,21 +1,15 @@
 <!-- 
 npm run build
 git add .
-git commit -m "push"
+git commit -m "update hero"
 git push origin main
 
 vercel --prod
  -->
 
 <script>
-	import Title from "$components/bookbans/Title.svelte";
 	import UniqueTitles from "$components/bookbans/UniqueTitles.svelte";
-	import M4LGroups from "$components/bookbans/M4LGroups.svelte";
 	import TimeDifferences from "$components/bookbans/TimeDifferences.svelte";
-	import IntroScrolly from "$components/bookbans/IntroScrolly.svelte";
-	import M4LMap from "$components/bookbans/M4LMap.svelte";
-	import BookBanMap from "$components/bookbans/BookBanMap.svelte";
-	import Maps from "$components/bookbans/Maps.svelte";
 	import MapsScrolly from "$components/bookbans/MapsScrolly.svelte";
 	import RevenueGraphic from "$components/bookbans/RevenueGraphic.svelte";
 	import LibraryCard from "$components/bookbans/LibraryCard.svelte";
@@ -134,7 +128,7 @@ vercel --prod
 	</p>
 
 	<p class="copy">
-		More than ever, books are getting caught in the political crossfire sweeping this country. You can <a href='https://bookriot.com/how-to-fight-book-bans-and-challenges/'>get involved</a> in the fight by organizing reading programs, voting in local elections, or simply checking out a book at your public library. 
+		More than ever, books are getting caught in the political crossfire sweeping across this country. You can <a href='https://bookriot.com/how-to-fight-book-bans-and-challenges/'>get involved</a> in the fight by organizing reading programs, voting in local elections, or simply checking out a book at your public library. 
 	</p>
 
 	<AboutData />

@@ -17,6 +17,7 @@
 <div class="credits">
     <p class="credit">Editor:</p>
     <p class="name">Nicole Varela</p>
+    <p class="name">Brian Trapp</p>
     <p class="credit">Design:</p>
     <p class="name">MaSara Myers</p>
     <p class="name">Jennifer Kim</p>

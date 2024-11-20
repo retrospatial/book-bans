@@ -184,6 +184,7 @@ figure.folded {
     0.2em 0.2em 0.8em 0.2em
     rgba(76, 53, 73, 0.4);
 	position: relative;
+  z-index: 0;
 }
 
 svg.fold-me-please {
@@ -200,6 +201,7 @@ svg.fold-me-please {
   image-rendering:high-quality;
   transform:scale(1);
   visibility:visible;
+  z-index: 0;
 }
 
 /* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */

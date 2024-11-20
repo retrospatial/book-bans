@@ -124,9 +124,6 @@ $: console.log("Parent scrollIndex:", scrollIndex);
 		.step {
 			max-width: 30rem;
 		}
-		.step-inner {
-			font-size: 12px; /* Set font size to 12px for smaller screens */
-		}
 	}
 
 

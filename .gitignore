@@ -6,3 +6,9 @@ build
 functions
 .env
 .vercel
+README.md
+.prettierrc
+.npmrc
+.prettierignore
+.gitignore
+Makefile

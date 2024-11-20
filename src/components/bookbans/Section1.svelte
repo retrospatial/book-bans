@@ -36,7 +36,7 @@
  	</p>
 
 	 <p class="copy">
-		You may be asking yourself
+		Take a look at some of the most controversial and banned books in the United States.
  	</p>
 	
 	<div class="scrolly">
