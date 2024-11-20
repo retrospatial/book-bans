@@ -1,95 +1,43 @@
+<script>
+	import Intro from "$svg/intro.html?raw";
+</script>
+
 <section id="intro">
+	<div class="intro-row"> 
+		<section class="title">
+			{@html Intro.replaceAll("figma2html-box", "figma2html-box-intro")}
+		</section>
 
-	<div id="title">
+		<div id="subtitle">
+			<p class="subtitle-text">Book bans are a national issue. See what’s happening in your county.</p>
 
-		<h1 id="headline">Who's Behind the<br>
-			<span id="book-text">Book</span><br>
-			<span id="bans-text">Bans?</span></h1>
-
-		<div id="books">
-			<img id="book1" src="assets/svgs/book1.svg" alt="book1" />
-			<img id="book2" src="assets/svgs/book2.svg" alt="book2"/>
-    	</div>
-
-	</div> 
-
-	<div id="subtitle">
-		<p class="subtitle-text">Book bans are a national issue. See what’s happening in your county.</p>
-
-		<div id="byline">
-			<p class="byline-text">By Florina Sutanto</p>
-			<p class="byline-date">November 2024</p>
+			<div id="byline">
+				<p class="byline-text">By Florina Sutanto</p>
+				<p class="byline-date">November 2024</p>
+			</div>
 		</div>
 	</div>
-	
 </section>
 
+
 <style>
-    #intro {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 45rem;
-        min-height: 100vh;
-        margin: 0 auto;
-        text-align: center;
-		margin-top: -60px; 
-	}
-    	
-	#title {
-		margin: 0;
+	#intro {
+		display: table;
+		justify-content: center;     
+		align-items: center;         
+		min-height: 100vh;           
+		text-align: center;          
+		margin: 0;  
+		width: 100%;
 	}
 
-	#books {
-		position: relative;
-		height: auto; 
-		max-height: 100px;
-		margin-bottom: 80px;
+	.intro-row{
+		display: table-cell;
+		vertical-align: middle;
 	}
-
-    #book1 {
-        position: relative;
-        z-index: 1;
-		top: -120px;
-        left: 40px; 
-		width: 450px; 
-    }
-
-    #book2 {
-        position: relative;
-        z-index: 0;
-		top: -140px;
-		width: 550px; 
-    }
-
-    #headline {
-        position: relative;
-        z-index: 2;
-        margin: 0;
-		top: 80px;
-    }
-	
-    #book-text {
-        position: relative;
-        z-index: 3;
-		top: 25px;
-		text-transform: uppercase;
-		font-size: 1.5em;
-		left: -20px;
-	}
-	
-    #bans-text {
-        position: relative;
-        z-index: 3;
-		left: 80px;
-		top: 35px;
-		text-transform: uppercase;
-		font-size: 1.5em;
-    } 
 
 	#subtitle {
-		margin: 0;
+		margin: 4rem auto;
 	}
 
 	.subtitle-text
@@ -109,6 +57,8 @@
         border-top: 1px dashed #000;
         border-bottom: 1px dashed #000;
         padding: 18px 0;
+		margin-left: auto;
+    	margin-right: auto;
     }
 
     .byline-text,
@@ -119,15 +69,4 @@
         text-transform: uppercase;
 		font-family: 'Roboto Mono', monospace;
     }
-
-	@media (max-width: 600px) { 
-		#books {
-			margin-bottom: 40px;
-		}
-
-		#headline {
-			font-size: 8vw;
-		}
-}
-
 </style>

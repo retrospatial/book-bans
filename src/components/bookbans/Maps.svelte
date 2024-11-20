@@ -62,7 +62,7 @@
 	  } else if (scrollIndex === 2) {
 		entry = data.find(d => d.county_fips === feature.id.toString());
 		if (entry) {
-		  return { id: feature.id, color: entry.overlap_yes === 1 ? '#7fb7be' : '#fff' };  // Color for overlap "yes"
+		  return { id: feature.id, color: entry.overlap_yes === 1 ? '#346E75' : '#fff' };  // Color for overlap "yes"
 		}
 	  }
 	  return { id: feature.id, color: '#fff' };  // Default to white for counties without data

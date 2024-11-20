@@ -28,8 +28,9 @@
         font-family: 'Roboto Mono', monospace;
         text-align: left;
         font-size: 14px;
-        font-weight: 800;
-        color: var(--color-gray-600);
+        font-weight: 400;
+        /* color: var(--color-gray-600); */
+        color: black;
         margin-bottom: 4rem;
         text-transform: uppercase;
     }

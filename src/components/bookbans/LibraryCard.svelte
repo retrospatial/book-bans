@@ -13,6 +13,7 @@
 <style>
   .image {
     display: block;
-    margin: 2rem auto;
+    margin: 0 auto 4rem auto !important;
   }
+
 </style>

@@ -19,7 +19,7 @@
 </div>
 
 <!-- Chart Source -->
-<ChartDetails source="Source: Form 990s" />
+<ChartDetails source="Source: ProPublica Nonprofit Explorer" />
 
 <style>
     #stacks {

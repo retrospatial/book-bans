@@ -13,10 +13,6 @@
 
 <Section1 />
 <Page />
-
-
-
-
 <Footer />
 
 <style>

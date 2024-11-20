@@ -44,7 +44,7 @@
         width: 100%;
         height: 1px;
         border-bottom: 1px dashed black;
-        margin-bottom: 4rem;
+        margin: 4rem auto;
     }
 
     .credit {

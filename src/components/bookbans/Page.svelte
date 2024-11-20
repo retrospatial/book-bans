@@ -1,7 +1,7 @@
 <!-- 
 npm run build
 git add .
-git commit -m "clean"
+git commit -m "push"
 git push origin main
 
 vercel --prod
@@ -24,12 +24,12 @@ vercel --prod
 
 <div id="page">
 	
-	<p class="copy">
+	<p class="copy" style="margin-top: 4rem">
 		PEN America <a href="https://pen.org/report/beyond-the-shelves/">defines a book ban</a> as “any action taken against a book based on its content” that leads to a previously accessible book being restricted or removed either temporarily or permanently. According to the American Library Association, a challenge is an attempt to remove a book whereas a ban is the actual act of removal.
 	</p>
 	
 	<p class="copy">
-		Book bans aren’t new. Removing books from public circulation has long been used as a tool to suppress free speech and restrict access to ideas deemed dissenting, inappropriate, or dangerous. These conditions have been applied, often arbitrarily, to any book from <i>The Diary of a Young Girl</i> to <i>Harry Potter</i>.
+		Book bans aren’t new. Removing books from public circulation has long been used as a tool to suppress free speech and restrict access to ideas deemed dissenting, inappropriate, or dangerous. These conditions have been applied, often arbitrarily, to any book from <i>The Diary of a Young Girl</i> by Anne Frank to <i>The Hunger Games</i> by Suzanne Collins.
 	</p>
 
 	<p class="copy">
@@ -130,7 +130,7 @@ vercel --prod
 	</p>
 
 	<p class="copy">
-		Still, when it comes to book banning, other forces beyond Moms for Liberty are at play. Trump’s new presidency may spell even greater trouble for public education, as he has pledged to <a href='https://www.cnn.com/2024/09/20/politics/department-of-education-shut-down-trump/index.html'>dismantle</a> the U.S. Department of Education This would potentially drain even more resources from the system and further narrow the boundaries of what is considered appropriate education.  
+		Still, when it comes to book banning, other forces beyond Moms for Liberty are at play. Trump’s new presidency may spell even greater trouble for public education, as he has pledged to <a href='https://www.cnn.com/2024/09/20/politics/department-of-education-shut-down-trump/index.html'>dismantle</a> the U.S. Department of Education. This would potentially drain even more resources from the system and further narrow the boundaries of what is considered appropriate education.  
 	</p>
 
 	<p class="copy">
@@ -173,19 +173,19 @@ vercel --prod
 
 	.copy {
 		max-width: 45rem;  
-		margin: 32px auto;    
+		margin: 2rem auto;    
 		text-align: left;   
 	}
 
 	.section-header{
 		max-width: 45rem; 
-		margin: 64px auto;      
+		margin: 6rem auto 2rem auto;      
 		text-align: left;
 	}
 
-	@media (max-width: 800px) { 
+		@media (max-width: 800px) { 
         #page {
-			padding: 0 2rem;
+			padding: 0 1rem;
 		}
     }
 </style>

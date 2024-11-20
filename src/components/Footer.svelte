@@ -1,15 +1,23 @@
 <script>
 	import sticker from "$svg/cclogo_white.svg";
 
+	const links = [
+		{ name: "about", url: "https://www.citizencodex.com/about-us" },
+		{ name: "our stories", url: "https://www.citizencodex.com/our-stories" },
+		{ name: "linkedin", url: "https://www.linkedin.com/company/citizen-codex/" },
+	];
+
 </script>
 
 <footer>
+
 	<section class="about">
 		<div class="sticker">
 			<a href="https://citizencodex.com" target="_self">
 				{@html sticker}
 			</a>	
 		</div>
+
 		<p class="text">
 			<a href="https://citizencodex.com" target="_self">Citizen Codex</a> is a data design studio sharing insights and data more clearly to the world.
 		</p>
@@ -17,6 +25,18 @@
 			Reach out: <a href="mailto:hello@citizencodex.com">hello@citizencodex.com</a>
 
 		</p>
+	</section>
+
+	<section class="links">
+		<ul>
+			{#each links as link}
+				<li>
+					<a href={link.url} target="_self">
+						<span>{link.name.toUpperCase()}</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
 	</section>
 
 </footer>
@@ -32,14 +52,14 @@
 
 	a,
 	a:visited {
-		color: var(--color-bg);
+		color: white;
 		text-decoration: underline;
 		text-decoration-color: #F4E48A; 
 	}
 
 	a:hover {
 		background-color: #F4E48A; 
-		color: var(--color-fg); 
+		color: black; 
 	}
 
 	.sticker {
@@ -55,6 +75,30 @@
 
 	.text {
 		color: white;
+	}
+
+	.links ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+
+	.links li {
+		display: flex;
+		padding: 0.5em 1em;
+	}
+
+	.links a {
+		display: flex;
+		border: none;
+		align-items: center;
+		text-decoration: none;
+	}
+
+	.links span {
+		margin: auto 0.5em;
 	}
 
 </style>

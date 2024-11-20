@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import sticker from "$svg/cclogo_black.svg";
 </script>
 
@@ -20,4 +20,4 @@
 	.sticker {
 		max-width: 16em;
 	}
-</style>
+</style> -->

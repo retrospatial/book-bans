@@ -11,9 +11,14 @@
   
   <style>
     .image {
-      display: block;
-      margin: 2rem auto;
-      width: 100%;
+        display: block;
+        margin: 2rem auto !important;
+    }
+
+    @media (max-width: 800px) { 
+        .image {
+			margin: 4rem auto 2rem auto !important;
+		}
     }
   </style>
   

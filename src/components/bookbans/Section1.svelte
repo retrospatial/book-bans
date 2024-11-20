@@ -1,9 +1,20 @@
 <script>
 	import Title from "$components/bookbans/Title.svelte";
 	import IntroScrolly from "$components/bookbans/IntroScrolly.svelte";
+	import sticker from "$svg/cclogo_black.svg";
 </script>
 
-<div id="section1">
+
+<section id="section1">
+
+	<header>
+		<div class="sticker">
+			<a href="https://citizencodex.com" target="_self">
+				{@html sticker}
+			</a>	
+		</div>
+	</header>
+
 	<div class="title">
 		<Title /> 
 	</div>
@@ -13,7 +24,7 @@
 	</p>
 
 	<p class="copy">
-		A month later, all public schools in Utah were ordered to remove 13 books from their library shelves due to a state law requiring the blanket removal of any books containing “<a href="https://abcnews.go.com/US/utah-bans-13-books-public-schools-statewide-including/story?id=112680897">pornographic or indecent</a>” material. The no-read list includes titles such as <i>Forever</i>Forever by Judy Blume, <i>Milk and Honey by Rupi Kaur</i>, and <i>A Court of Thorns and Roses</i> by Sarah J. Maas. 
+		A month later, all public schools in Utah were ordered to remove 13 books from their library shelves due to a state law requiring the blanket removal of any books containing “<a href="https://abcnews.go.com/US/utah-bans-13-books-public-schools-statewide-including/story?id=112680897">pornographic or indecent</a>” material. The no-read list includes titles such as <i>Forever</i> by Judy Blume, <i>Milk and Honey</i> by Rupi Kaur, and <i>A Court of Thorns and Roses</i> by Sarah J. Maas. 
 	</p>
 
 	<p class="copy">
@@ -23,11 +34,15 @@
 	<p class="copy">
 		That’s just this past summer. According to literacy advocacy group PEN America, which tracks book bans across the nation, efforts to remove literature from schools and libraries have taken a severe turn in recent years. There were over 10,000 reported bans during the 2023-2024 school year, a sharp increase from 3,362 reports in the previous year.
  	</p>
+
+	 <p class="copy">
+		You may be asking yourself
+ 	</p>
 	
 	<div class="scrolly">
 		<IntroScrolly />
 	</div>
-</div>
+</section>
 
 <style>
 	#section1 {
@@ -45,9 +60,19 @@
 		text-align: left;   
 	}
 
+	header {
+		display: flex;
+		justify-content: center; 
+		padding-top: 2rem;
+	}
+
+	.sticker {
+		max-width: 16em;
+	}
+
 	@media (max-width: 800px) { 
         #section1 {
-			padding: 0 2rem;
+			padding: 0 1rem;
 		}
     }
 
