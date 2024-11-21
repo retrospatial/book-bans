@@ -1,10 +1,8 @@
 <!-- 
 npm run build
 git add .
-git commit -m "update hero"
+git commit -m "update scrollys"
 git push origin main
-
-vercel --prod
  -->
 
 <script>
